@@ -747,7 +747,7 @@ kbd{font:inherit;background:#e8eef1;padding:2px 5px;border:1px solid #d5e0e5;bor
   <div class="slide-inner">
     <div class="slide-heading reveal"><p class="eyebrow">Propuesta económica</p><h2 id="title-10">Inversión de la primera etapa</h2></div>
     <div class="investment reveal" style="--delay:100ms">
-      <div><p class="investment-label">Desarrollo e implementación</p><div class="investment-price">$1.800.000</div><div class="currency">Pesos argentinos · Más IVA si corresponde</div><p class="price-value">Una base propia para ordenar clientes, agilizar presupuestos y seguir los casos del taller. El valor está en el trabajo que deja de repetirse cada semana.</p></div>
+      <div><p class="investment-label">Desarrollo e implementación</p><div class="investment-price">$1.800.000</div><div class="currency">Pesos argentinos · Más IVA si corresponde</div><p class="price-value">A la inversión inicial se suma un abono obligatorio de <strong>$150.000 mensuales</strong> por servidores y mantenimiento del sistema, desde la puesta en marcha.</p></div>
       <div>
         <div class="payment-card"><span class="payment-percent">50%</span><div><strong>$900.000</strong><p>Al iniciar el trabajo</p><small>Confirmamos el alcance y comenzamos la implementación.</small></div></div>
         <div class="payment-card"><span class="payment-percent">50%</span><div><strong>$900.000</strong><p>Al entregar la etapa acordada</p><small>Con el alcance funcionando y validado junto al taller.</small></div></div>
@@ -759,19 +759,19 @@ kbd{font:inherit;background:#e8eef1;padding:2px 5px;border:1px solid #d5e0e5;bor
 
 <section class="slide" id="mensualidad" data-title="Servicio mensual" aria-labelledby="title-11" hidden>
   <div class="slide-inner">
-    <div class="slide-heading reveal"><p class="eyebrow">Después de la puesta en marcha</p><h2 id="title-11">Mantenimiento mensual del sistema</h2><p class="lead">Revisión técnica, control de respaldos y soporte para el funcionamiento diario.</p></div>
+    <div class="slide-heading reveal"><p class="eyebrow">Después de la puesta en marcha</p><h2 id="title-11">Servidores y mantenimiento del sistema</h2><p class="lead">Servidores, mantenimiento, respaldos y soporte incluidos en el abono mensual.</p></div>
     <div class="monthly-grid reveal" style="--delay:100ms">
-      <div class="monthly-price"><span class="pill">Plan opcional</span><strong>$150.000</strong><div class="per-month">por mes · ARS + IVA si corresponde</div><p>Se abona por adelantado desde la puesta en marcha.<span class="billing-adjustment">Ajustes mínimos trimestrales, sujetos al consumo del sistema.</span></p></div>
+      <div class="monthly-price"><span class="pill">Abono mensual obligatorio</span><strong>$150.000</strong><div class="per-month">por mes · ARS + IVA si corresponde</div><p>Forma parte del servicio y se abona por adelantado desde la puesta en marcha.<span class="billing-adjustment">Ajustes mínimos trimestrales, sujetos al consumo del sistema.</span></p></div>
       <div>
         <div class="monthly-services">
-          <div class="service-item"><h3>Una revisión técnica mensual</h3><p>Comprobación del funcionamiento y de la ejecución de los respaldos configurados.</p></div>
+          <div class="service-item"><h3>Servidores y mantenimiento</h3><p>Alojamiento de la aplicación, base de datos y archivos, con revisión técnica mensual y control de respaldos.</p></div>
           <div class="service-item"><h3>Hasta una hora de asistencia remota</h3><p>Consultas de uso, configuración y ajustes menores sobre lo entregado, como textos o plantillas. La hora no se acumula.</p></div>
           <div class="service-item"><h3>Un canal de soporte</h3><p>WhatsApp o email, de lunes a viernes de 9 a 18 h, excepto feriados. Los plazos de respuesta están detallados en el servicio.</p></div>
         </div>
       </div>
     </div>
-    <div class="monthly-actions reveal" style="--delay:180ms"><button class="button" data-dialog="service-dialog">Ver todo lo que incluye <span aria-hidden="true">↗</span></button><button class="button inline" data-dialog="costs-dialog">Alojamiento y otros costos <span aria-hidden="true">→</span></button></div>
-    <div class="external-costs reveal" style="--delay:210ms"><span><b>Infraestructura aparte:</b> estimación inicial de USD 25 a 50 por mes, según consumo. Dominio anual aparte.</span></div>
+    <div class="monthly-actions reveal" style="--delay:180ms"><button class="button" data-dialog="service-dialog">Ver todo lo que incluye <span aria-hidden="true">↗</span></button><button class="button inline" data-dialog="costs-dialog">Servidores y servicios adicionales <span aria-hidden="true">→</span></button></div>
+    <div class="external-costs reveal" style="--delay:210ms"><span><b>Servidores incluidos:</b> el abono mensual cubre el alojamiento y el mantenimiento del sistema.</span></div>
   </div>
 </section>
 
@@ -808,29 +808,29 @@ kbd{font:inherit;background:#e8eef1;padding:2px 5px;border:1px solid #d5e0e5;bor
 <div class="dialog-body"><div class="wa-settings-context"><span class="wa-label">Estás editando</span><strong id="wa-settings-context"></strong><p>Guardás un texto por acción para los clientes y otro para cada aseguradora. Los datos entre llaves se completan solos.</p></div>
 <label class="wa-label" for="wa-template-editor">Mensaje preconfigurado</label><textarea id="wa-template-editor" rows="7" spellcheck="true"></textarea><div class="wa-variables" aria-label="Insertar un dato automático"><button data-wa-variable="cliente">+ Cliente</button><button data-wa-variable="vehiculo">+ Vehículo</button><button data-wa-variable="patente">+ Patente</button><button data-wa-variable="presupuesto">+ Presupuesto</button><button data-wa-variable="total">+ Total</button><button data-wa-variable="aseguradora">+ Aseguradora</button><button data-wa-variable="siniestro">+ Siniestro</button><button data-wa-variable="enlace">+ Acceso al PDF</button></div><p class="wa-editor-error" id="wa-editor-error" role="alert" hidden></p><div class="wa-settings-actions"><button class="button inline" id="wa-reset-template">Restaurar esta plantilla</button><button class="button" id="wa-save-template">Guardar y ver el mensaje →</button></div></div></dialog>
 <dialog id="service-dialog" aria-labelledby="service-title">
-  <div class="dialog-head"><div><p class="eyebrow">Plan opcional · $150.000 por mes</p><h2 id="service-title">Qué incluye el servicio mensual</h2></div><button class="close-dialog" data-close aria-label="Cerrar detalle del servicio">×</button></div>
+  <div class="dialog-head"><div><p class="eyebrow">Abono mensual obligatorio · $150.000 por mes</p><h2 id="service-title">Qué incluye el servicio mensual</h2></div><button class="close-dialog" data-close aria-label="Cerrar detalle del servicio">×</button></div>
   <div class="dialog-body" id="service-details">
     <div class="detail-grid">
+      <div><h3>Servidores incluidos</h3><p>El abono obligatorio de $150.000 mensuales incluye el alojamiento de la aplicación, la base de datos, el almacenamiento de archivos y el mantenimiento del sistema.</p></div>
       <div><h3>Revisión y respaldos</h3><p>Una revisión técnica mensual del funcionamiento y de la ejecución de las copias automáticas configuradas. En la entrega se comprueba una restauración y se documenta cómo se respaldan la base de datos y los archivos.</p></div>
       <div><h3>Asistencia y ajustes menores</h3><p>Hasta una hora por mes de asistencia remota. Incluye consultas de uso, configuración y cambios pequeños en textos o plantillas existentes. Las horas no utilizadas no se acumulan.</p></div>
       <div><h3>Canales y horarios</h3><p>WhatsApp o email. De lunes a viernes de 9 a 18 h de Argentina, excepto feriados. Un contacto del taller centraliza las solicitudes para facilitar el seguimiento.</p></div>
       <div><h3>Plazos de respuesta</h3><p>Primera respuesta dentro de un día hábil ante una interrupción del sistema y de dos días hábiles para consultas habituales. El plazo de solución se informa después del diagnóstico.</p></div>
-      <div class="full terms-highlight"><h3>Garantía incluida en la implementación</h3><p>Durante 60 días desde la entrega corregimos sin costo las fallas del alcance contratado. La garantía se mantiene aunque no se contrate el abono y esas correcciones no consumen la hora mensual.</p></div>
+      <div class="full terms-highlight"><h3>Garantía incluida en la implementación</h3><p>Durante 60 días desde la entrega corregimos sin costo las fallas del alcance contratado. Estas correcciones no consumen la hora mensual de asistencia.</p></div>
       <div><h3>Correcciones y actualizaciones</h3><p>Luego de la garantía, el diagnóstico, las correcciones y las actualizaciones menores compatibles se atienden dentro de la hora mensual incluida. Si requieren más tiempo, se informa el alcance y se aprueba el presupuesto antes de continuar.</p></div>
-      <div><h3>Actualización trimestral y continuidad</h3><p>El plan comienza con la puesta en marcha y se paga por adelantado. El valor se revisa cada tres meses, con aumentos mínimos sujetos al consumo del sistema. Cualquier ajuste se comunica con 30 días de anticipación. La baja se solicita antes de la siguiente renovación.</p></div>
+      <div><h3>Actualización trimestral y continuidad</h3><p>El abono de servidores y mantenimiento es obligatorio desde la puesta en marcha y se paga por adelantado. El valor se revisa cada tres meses, con aumentos mínimos sujetos al consumo del sistema. Cualquier ajuste se comunica con 30 días de anticipación. La baja se solicita antes de la siguiente renovación.</p></div>
       <div class="full"><h3>Nuevos trabajos</h3><p>Los nuevos módulos, las integraciones, los cambios de alcance y las cargas masivas se cotizan por separado, con aprobación previa.</p></div>
     </div>
   </div>
 </dialog>
 
 <dialog id="costs-dialog" aria-labelledby="costs-title">
-  <div class="dialog-head"><div><p class="eyebrow">Costos externos</p><h2 id="costs-title">El alojamiento se paga por separado</h2></div><button class="close-dialog" data-close aria-label="Cerrar costos externos">×</button></div>
+  <div class="dialog-head"><div><p class="eyebrow">Alcance del abono mensual</p><h2 id="costs-title">Servidores incluidos y servicios adicionales</h2></div><button class="close-dialog" data-close aria-label="Cerrar alcance del abono">×</button></div>
   <div class="dialog-body" id="cost-details">
-    <div class="cost-row"><strong>Infraestructura</strong><p><b>USD 25 a 50 por mes como estimación inicial.</b> Alojamiento de la aplicación, base de datos y almacenamiento según la configuración. El proveedor factura el consumo real. El importe puede variar con el uso, las fotos, los respaldos y los impuestos.</p></div>
-    <div class="cost-row"><strong>Dominio</strong><p>Renovación anual de la dirección del sistema, si se registra una propia. Se confirma el costo al elegir el nombre.</p></div>
+    <div class="cost-row"><strong>Servidores y mantenimiento</strong><p><b>Incluidos en los $150.000 mensuales.</b> El abono cubre el alojamiento de la aplicación, la base de datos, el almacenamiento de archivos y el mantenimiento del sistema.</p></div>
+    <div class="cost-row"><strong>Dominio</strong><p>Si se registra un dominio propio, su contratación y renovación anual se cotizan por separado. Se confirma el costo al elegir el nombre.</p></div>
     <div class="cost-row"><strong>Asistencia con IA</strong><p>Si se activa un servicio de IA, su consumo se cobra aparte y se acuerda un límite de uso. Las plantillas, los cálculos y la revisión del presupuesto funcionan sin contratar ese servicio.</p></div>
-    <div class="cost-row"><strong>Control del gasto</strong><p>Antes de la puesta en marcha se acuerdan los servicios a contratar, el responsable de pago y el presupuesto de consumo. Se prefieren cuentas a nombre del taller para que conserve los accesos.</p></div>
-    <div class="cost-row"><strong>Referencia de cálculo</strong><p>El rango de USD 25 a 50 es una estimación para esta etapa, no una tarifa fija. Como referencia, Railway Pro publica un mínimo de USD 20 al mes con USD 20 de uso incluido, más los excedentes. <a href="https://docs.railway.com/pricing/plans" target="_blank" rel="noopener noreferrer">Consultar precios del proveedor</a>.</p></div>
+    <div class="cost-row"><strong>Servicios adicionales</strong><p>Antes de contratar un dominio propio o activar un servicio de IA, se acuerdan su costo, el responsable de pago y, cuando corresponda, el límite de consumo.</p></div>
   </div>
 </dialog>
 <dialog class="issued-dialog" id="issued-dialog" aria-labelledby="issued-title">
@@ -875,7 +875,7 @@ kbd{font:inherit;background:#e8eef1;padding:2px 5px;border:1px solid #d5e0e5;bor
 </template>
 <section id="quote-print-root" hidden aria-label="Presupuesto de reparación para imprimir"></section>
 <section class="print-appendix" id="print-service" hidden aria-label="Detalle del servicio mensual para impresión"></section>
-<section class="print-appendix" id="print-costs" hidden aria-label="Costos externos para impresión"></section>
+<section class="print-appendix" id="print-costs" hidden aria-label="Servidores incluidos y servicios adicionales para impresión"></section>
 
 <script>
 (function(){
@@ -1148,8 +1148,8 @@ kbd{font:inherit;background:#e8eef1;padding:2px 5px;border:1px solid #d5e0e5;bor
   });
   function preparePrint(){
     if(document.body.classList.contains('print-quote')){if(issuedSnapshot){renderIssuedQuote();document.title='Oscar Rizzi - Presupuesto P-2026-001 - v'+String(issuedSnapshot.version).padStart(2,'0');}return;}
-    document.getElementById('print-service').innerHTML='<p class="eyebrow">Plan opcional · $150.000 por mes</p><h2>Detalle del servicio mensual</h2>'+document.getElementById('service-details').innerHTML;
-    document.getElementById('print-costs').innerHTML='<p class="eyebrow">Costos externos</p><h2>Alojamiento y otros servicios</h2>'+document.getElementById('cost-details').innerHTML;
+    document.getElementById('print-service').innerHTML='<p class="eyebrow">Abono mensual obligatorio · $150.000 por mes</p><h2>Detalle del servicio mensual</h2>'+document.getElementById('service-details').innerHTML;
+    document.getElementById('print-costs').innerHTML='<p class="eyebrow">Alcance del abono mensual</p><h2>Servidores incluidos y servicios adicionales</h2>'+document.getElementById('cost-details').innerHTML;
   }
   window.addEventListener('beforeprint',preparePrint);
   document.getElementById('print').addEventListener('click',function(){document.body.classList.remove('print-quote');preparePrint();window.print();});
