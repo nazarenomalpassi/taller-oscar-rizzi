@@ -4,7 +4,7 @@ Presentación interactiva de la propuesta de gestión: clientes, presupuestos, m
 
 ## Ver la presentación
 
-[Abri la presentación](https://nazarenomalpassi.github.io/taller-oscar-rissi/)
+[Abri la presentación](https://nazarenomalpassi.github.io/taller-oscar-rizzi/)
 
 También podés descargar `index.html` y abrirlo con un navegador. Funciona sin conexión.
 
